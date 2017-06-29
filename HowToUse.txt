@@ -1,4 +1,0 @@
-1. drag and drop .ass file on shift.bat
-2. enter framerate
-3. enter +/- frames you want to shift
-4. out.ass file will be written in this folder
