@@ -1,4 +1,4 @@
-Small tool that shifts Aegisub Subtitle Files(.ass) a specified number of frames forward/backwards.
+Small tool that shifts SubStation Alpha Files(.ass) a specified number of frames forward/backwards.
 
 Requirements: 
 OS: Windows
