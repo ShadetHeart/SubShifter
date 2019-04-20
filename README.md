@@ -1,8 +1,8 @@
 Small tool that shifts SubStation Alpha Files(.ass) a specified number of frames forward/backwards.
 
 Requirements: 
-OS: Windows
-Lua 5.x 
+- OS: Windows
+- Lua 5.x 
 (If not already installed I recommend downloading this: https://github.com/rjpcomputing/luaforwindows/releases)
 
 How to use:
