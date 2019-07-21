@@ -1,13 +1,13 @@
 Small tool that shifts SubStation Alpha Files(.ass) a specified number of frames forward/backwards.
 
-Requirements: 
+##Requirements: 
 - OS: Windows, Linux
 - Lua 5.x 
 
-Windows: 
+###Windows: 
 https://github.com/rjpcomputing/luaforwindows/releases
 
-Linux:
+###Linux:
 - \#Debian/Ubuntu systems:
 
      $ sudo apt install lua5.3	 
@@ -18,15 +18,15 @@ Linux:
 
      \# dnf install lua		                			
 
-How to use:
+##How to use:
 
-Windows:
+###Windows:
 1. Drag and drop .ass file on shift.bat / 
 2. Enter framerate
 3. Enter +/- frames you want to shift
 4. Shifted "out.ass" file will be written in the folder containing the script
 
-Linux:
+###Linux:
 1. From Terminal: $ lua script.lua <subtitle file>
 2. Enter framerate
 3. Enter +/- frames you want to shift
