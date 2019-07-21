@@ -21,13 +21,13 @@ https://github.com/rjpcomputing/luaforwindows/releases
 ## How to use:
 
 ### Windows:
-1. Drag and drop .ass file on shift.bat / 
+1. Drag and drop .ass file on shift.bat
 2. Enter framerate
 3. Enter +/- frames you want to shift
 4. Shifted "out.ass" file will be written in the folder containing the script
 
 ### Linux:
-1. From Terminal: $ lua script.lua /<subtitle file>
+1. From Terminal: $ lua script.lua <subtitle file>
 2. Enter framerate
 3. Enter +/- frames you want to shift
 4. Shifted "out.ass" file will be written in the folder containing the script
