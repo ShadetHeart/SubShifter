@@ -3,7 +3,10 @@ Small tool that shifts SubStation Alpha Files(.ass) a specified number of frames
 Requirements: 
 - OS: Windows, Linux
 - Lua 5.x 
-Windows: https://github.com/rjpcomputing/luaforwindows/releases
+
+Windows: 
+https://github.com/rjpcomputing/luaforwindows/releases
+
 Linux:
 - $ sudo apt install lua5.3	                		#Debian/Ubuntu systems 
 - # yum install epel-release && yum install lua		#RHEL/CentOS systems 
