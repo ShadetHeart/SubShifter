@@ -8,9 +8,12 @@ Windows:
 https://github.com/rjpcomputing/luaforwindows/releases
 
 Linux:
-- $ sudo apt install lua5.3	                			\#Debian/Ubuntu systems 
-- \# yum install epel-release && yum install lua		\#RHEL/CentOS systems 
-- \# dnf install lua		                			\#Fedora 22+
+- \#Debian/Ubuntu systems:
+$ sudo apt install lua5.3	 
+- \#RHEL/CentOS systems                			
+\# yum install epel-release && yum install lua		
+- \#Fedora 22+:
+\# dnf install lua		                			
 
 How to use:
 
