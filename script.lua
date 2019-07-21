@@ -28,7 +28,6 @@ output = assert(io.open("output.ass", "w"))
 pattern = "%d:%d%d:%d%d%.%d%d"
 
 --iterate over input, shift and write output
-tmp = ""
 
 io.write("\n\nlines processed:\n")
 progress = 0
@@ -82,16 +81,17 @@ for line in input:lines() do
 			return string.format("%d:%s:%s.%s",hours,minutes,seconds,milliseconds)
 		end)
 	--write output
-	tmp = tmp .. line .. "\n"
+	tmp = line .. "\n"
+	output:write(tmp)
+	
 	--capture progress
 	progress = progress+1
 	if progress >= oldprogress+1000 then
 		io.write(string.format("\r%d",progress))
 		oldprogress = progress
-		output:write(tmp)
-		tmp = ""
 	end
 end
+
 
 --close files
 input:close()
